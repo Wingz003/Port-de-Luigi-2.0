@@ -189,17 +189,23 @@ section {
     background-color: var(--primary-200);
     padding: 1rem 0;
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 375px) {
     .toggle-btn {
         display: flex;
-    
-
     }
     .navbar-links {
         display: none;
         width: 100%;
     }
-
+.img-coding img {
+    display: none;
+}
+.img-cockpit img {
+    display: none;
+}
+.photo img {
+    display: none;
+}
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -220,9 +226,21 @@ section {
     .split {
         flex-direction: column;
     }
+    .introduction h1 {
+        font-size: 1.8rem;
+        padding-left: 7rem;
+    }
+    .introduction p {
+        display: none;
+
+    }
+    .introduction h4 {
+        display: none;
+    }
+
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 375px) {
     .split > * {
         flex-basis: 100%;
     }
