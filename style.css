@@ -208,6 +208,9 @@ section {
 .photo img {
     display: none;
 }
+.img-plane img {
+    margin: auto;
+}
 header {
     flex-direction: column;
     align-items: flex-start;
