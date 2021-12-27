@@ -238,7 +238,6 @@ header {
 }
 .split {
     flex-direction: column;
-    text-align: center;
 }
 .introduction h1 {
     display: none;
@@ -249,9 +248,6 @@ header {
 }
 .introduction h4 {
     display: none;
-}
-section {
-    text-align: center;
 }
 section h2 {
     text-align: center;
@@ -265,5 +261,8 @@ section h2 {
 }
 .split > * + * {
     margin-left: 2em;
+}
+section {
+    text-align: center;
 }
 }
