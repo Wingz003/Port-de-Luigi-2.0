@@ -262,7 +262,5 @@ section h2 {
 .split > * + * {
     margin-left: 2em;
 }
-section {
-    text-align: center;
-}
+
 }
