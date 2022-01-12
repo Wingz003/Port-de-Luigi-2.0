@@ -1,9 +1,12 @@
-const togglebtn = document.getElementsByClassName('toggle-btn')[0]
-const navBarLinks = document.getElementsByClassName('navbar-links')[0]
-
+const togglebtn = document.getElementsByClassName('toggle-btn')[0];
+const navBarLinks = document.getElementsByClassName('navbar-links')[0];
+const dropDown = document.getElementsByClassName('menu')[0];
 togglebtn.addEventListener('click', () => {
     navBarLinks.classList.toggle('active')
-})
+});
+dropDown.addEventListener('click', () => {
+    navBarLinks.classList.toggle('active') = false;
+});
 
 window.onscroll = function() {myFunction()};
 

@@ -5,6 +5,7 @@
     --secondary-100: #FFF;
     --secondary-200: #097392;
     --secondary-400: #a45a52;
+    --secondary-600: #5D6D7E;
 
     --ff-primary: 'Raleway', sans-serif;
     --ff-accent: 'Open Sans', sans-serif;
@@ -29,9 +30,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-200);
-    color: var(--primary-400);
-    border-bottom: .3rem solid var(--secondary-200);
+    background-color: var(--secondary-600);
+    color: var(--primary-200);
+    border-bottom: .3rem solid var(--secondary-400);
 }
 
 .logo {
