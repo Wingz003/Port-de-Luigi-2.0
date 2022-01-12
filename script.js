@@ -5,7 +5,7 @@ togglebtn.addEventListener('click', () => {
     navBarLinks.classList.toggle('active')
 });
 dropDown.addEventListener('click', () => {
-    navBarLinks.classList.toggle('active') = false;
+    navBarLinks.classList.toggle('active', false);
 });
 
 window.onscroll = function() {myFunction()};
