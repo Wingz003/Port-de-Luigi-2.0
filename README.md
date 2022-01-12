@@ -5,17 +5,17 @@ This project is a personal portfolio page for SMU Coding Bootcamp.
 
  
 
-![](img/portfolio.png)
+![](img/updatePortfolio.png)
 
 ## Usage
 
 1. You are able to navigate through the webpage by simply clicking the navigation bar menu. 
 
-![](img/portfolio.png)
+![](img/updatePortfolio.png)
 
 2. At smaller screen sizes, the navigation menu turns into a hamburger menu tab that activates a drop down on click showing the options from the previous menu.
 
-![](img/smallerscreen.png)        ![](img/dropdown.png)
+![](img/smallerscreen.png)        ![](video/burgerMenu.gif)
 
 
 3. At the bottom of the page, it supplies the spectator a link of my projects so far as well as my contact information.
